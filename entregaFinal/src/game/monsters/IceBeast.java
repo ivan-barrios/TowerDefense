@@ -10,6 +10,8 @@ import game.types.Type;
 import java.util.Arrays;
 import java.util.List;
 
+import javax.swing.ImageIcon;
+
 public class IceBeast extends Monster {
 
     private List<Cold> skills = Arrays.asList(new ColdBreath(), new IceSpike());
@@ -19,6 +21,7 @@ public class IceBeast extends Monster {
         this.monsterName = name;
         this.activeSkill = skills.get(0);
         this.types = Arrays.asList(Type.COLD, Type.BEAST);
+        this.linkToImage = new ImageIcon("entregaFinal/assets/icebeast.png");
     }
 
     @Override

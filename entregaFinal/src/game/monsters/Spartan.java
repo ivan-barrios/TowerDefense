@@ -6,6 +6,8 @@ import game.types.Type;
 
 import java.util.Arrays;
 
+import javax.swing.ImageIcon;
+
 public class Spartan extends Monster {
 
     public Spartan(String name) {
@@ -13,6 +15,7 @@ public class Spartan extends Monster {
         this.activeSkill = new Slice();
         this.monsterName = name;
         this.types = Arrays.asList(Type.SWORD);
+        this.linkToImage = new ImageIcon("entregaFinal/assets/spartan.png");
     }
 
     @Override

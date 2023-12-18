@@ -3,6 +3,8 @@ package entregable.monstruos;
 import java.util.Arrays;
 import java.util.List;
 
+import javax.swing.ImageIcon;
+
 import entregable.ataques.Cantar;
 import entregable.ataques.Keloke;
 import entregable.ataques.Termidor;
@@ -19,6 +21,7 @@ public class LGante extends Monster {
 		this.life = 800;
 		this.activeSkill = skills.get(0);
 		this.types = Arrays.asList(Type.KELOKE);
+		this.linkToImage = new ImageIcon("entregaFinal/assets/lgante.jpg");
 	}
 
 	@Override

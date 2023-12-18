@@ -3,6 +3,8 @@ package entregable.monstruos;
 import java.util.Arrays;
 import java.util.List;
 
+import javax.swing.ImageIcon;
+
 import entregable.ataques.Mordida;
 import entregable.ataques.Torpedo;
 import entregable.ataques.UnderwaterBeast;
@@ -18,6 +20,7 @@ public class MichaelPhelps extends Monster {
 		this.monsterName = name;
 		this.activeSkill = skills.get(0);
 		this.types = Arrays.asList(Type.UNDERWATERBEAST);
+		this.linkToImage = new ImageIcon("entregaFinal/assets/michaelp.jpeg");
 	}
 
 	@Override

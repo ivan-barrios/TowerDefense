@@ -8,6 +8,8 @@ import game.types.Type;
 import entregable.ataques.*;
 import java.util.List;
 
+import javax.swing.ImageIcon;
+
 public class Messi extends Monster {
 
 	private List<God> skills = Arrays.asList(new Plancha(), new Regate());
@@ -17,6 +19,7 @@ public class Messi extends Monster {
 		this.monsterName = name;
 		this.activeSkill = skills.get(0);
 		this.types = Arrays.asList(Type.GOD, Type.BEAST);
+		this.linkToImage = new ImageIcon("entregaFinal/assets/messi.jpg");
 	}
 
 	@Override

@@ -5,6 +5,8 @@ import game.types.Type;
 
 import java.util.List;
 
+import javax.swing.ImageIcon;
+
 public abstract class Monster {
 
     protected Integer life;
@@ -12,7 +14,8 @@ public abstract class Monster {
     private Player player;
     protected String monsterName;
     protected List<Type> types;
-
+    protected ImageIcon linkToImage;
+    
     public abstract void attack(Monster monster);
 
     public void onDamageReceive(Integer damage, Monster monster) {
@@ -44,7 +47,15 @@ public abstract class Monster {
         return types;
     }
 
-    @Override
+    public ImageIcon getLinkToImage() {
+		return linkToImage;
+	}
+
+	public void setLinkToImage(ImageIcon linkToImage) {
+		this.linkToImage = linkToImage;
+	}
+
+	@Override
     public String toString() {
         return monsterName;
     }

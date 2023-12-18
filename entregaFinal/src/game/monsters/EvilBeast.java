@@ -6,6 +6,8 @@ import game.types.Type;
 
 import java.util.Arrays;
 
+import javax.swing.ImageIcon;
+
 public class EvilBeast extends Monster {
 
     public EvilBeast(String name) {
@@ -13,6 +15,7 @@ public class EvilBeast extends Monster {
         this.monsterName = name;
         this.activeSkill = new Curse();
         this.types = Arrays.asList(Type.BEAST, Type.DEMON, Type.FIRE);
+        this.linkToImage = new ImageIcon("entregaFinal/assets/evilbeast.jpg");
     }
 
     @Override

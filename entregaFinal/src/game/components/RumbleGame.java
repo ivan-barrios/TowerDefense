@@ -53,9 +53,9 @@ public class RumbleGame {
 		segundaEvaluacionUI = new SegundaEvaluacionUI();
 		segundaEvaluacionUI.init().setVisible(true);
 
-		PathBox box15 = new PathBox(segundaEvaluacionUI.getButton(0), "Noroeste");
-		PathBox box27 = new PathBox(segundaEvaluacionUI.getButton(2), "Oeste");
-		PathBox box39 = new PathBox(segundaEvaluacionUI.getButton(4), "Suroeste");
+		PathBox box15 = new PathBox(segundaEvaluacionUI.getLabel(0), "Noroeste");
+		PathBox box27 = new PathBox(segundaEvaluacionUI.getLabel(2), "Oeste");
+		PathBox box39 = new PathBox(segundaEvaluacionUI.getLabel(4), "Suroeste");
 
 		box15.setNorthBox(null);
 		box15.setSouthBox(box27);
@@ -70,9 +70,9 @@ public class RumbleGame {
 		westPath.getPathBoxes().add(box27);
 		westPath.getPathBoxes().add(box39);
 
-		PathBox box17 = new PathBox(segundaEvaluacionUI.getButton(1), "Noreste");
-		PathBox box29 = new PathBox(segundaEvaluacionUI.getButton(3), "Este");
-		PathBox box41 = new PathBox(segundaEvaluacionUI.getButton(5), "Sureste");
+		PathBox box17 = new PathBox(segundaEvaluacionUI.getLabel(1), "Noreste");
+		PathBox box29 = new PathBox(segundaEvaluacionUI.getLabel(3), "Este");
+		PathBox box41 = new PathBox(segundaEvaluacionUI.getLabel(5), "Sureste");
 
 		box17.setNorthBox(null);
 		box17.setSouthBox(box29);

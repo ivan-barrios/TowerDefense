@@ -1,0 +1,5 @@
+package game.types;
+
+public enum Type {
+	COLD, FIRE, DEMON, SWORD, BEAST, GOD, UNDERWATERBEAST, LIRICO, KELOKE, FUTBOLISTA
+}

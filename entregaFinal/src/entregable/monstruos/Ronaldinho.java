@@ -18,7 +18,7 @@ public class Ronaldinho extends Monster {
 		this.monsterName = name;
 		this.activeSkill = skills.get(0);
 		this.types = Arrays.asList(Type.FUTBOLISTA, Type.LIRICO);
-		this.linkToImage = new ImageIcon("entregaFinal/assets/ronaldinho.jpg");
+		this.linkToImage = new ImageIcon("entregaFinal/src/assets/ronaldinho.jpg");
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class EvilBeast extends Monster {
         this.monsterName = name;
         this.activeSkill = new Curse();
         this.types = Arrays.asList(Type.BEAST, Type.DEMON, Type.FIRE);
-        this.linkToImage = new ImageIcon("entregaFinal/assets/evilbeast.jpg");
+        this.linkToImage = new ImageIcon("entregaFinal/src/assets/evilbeast.jpg");
     }
 
     @Override

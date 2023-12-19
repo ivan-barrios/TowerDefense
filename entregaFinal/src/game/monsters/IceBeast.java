@@ -21,7 +21,7 @@ public class IceBeast extends Monster {
         this.monsterName = name;
         this.activeSkill = skills.get(0);
         this.types = Arrays.asList(Type.COLD, Type.BEAST);
-        this.linkToImage = new ImageIcon("entregaFinal/assets/icebeast.png");
+        this.linkToImage = new ImageIcon("entregaFinal/src/assets/icebeast.png");
     }
 
     @Override

@@ -5,7 +5,8 @@ import java.awt.*;
 
 public class BackgroundPanel extends JComponent {
 
-    private ImageIcon background = new ImageIcon("entregaFinal/assets/pitch.jpg");
+    private static final long serialVersionUID = 1L;
+	private ImageIcon background = new ImageIcon("entregaFinal/assets/pitch.jpg");
 
     @Override
     protected void paintComponent(Graphics g) {

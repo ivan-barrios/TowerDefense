@@ -19,7 +19,7 @@ public class Messi extends Monster {
 		this.monsterName = name;
 		this.activeSkill = skills.get(0);
 		this.types = Arrays.asList(Type.GOD, Type.BEAST);
-		this.linkToImage = new ImageIcon("entregaFinal/assets/messi.jpg");
+		this.linkToImage = new ImageIcon("entregaFinal/src/assets/messi.jpg");
 	}
 
 	@Override

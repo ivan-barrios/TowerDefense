@@ -9,6 +9,8 @@ import java.awt.Color;
 
 public class Popup extends JFrame {
 
+	private static final long serialVersionUID = 1L;
+
 	public Popup() {
 		super("Alerta Empate");
 		JLabel label = new JLabel("Hubo un empate!");
@@ -21,3 +23,4 @@ public class Popup extends JFrame {
 		setLocationRelativeTo(null);
 	}
 }
+

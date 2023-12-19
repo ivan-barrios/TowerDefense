@@ -7,7 +7,9 @@ import java.util.List;
 
 public class SegundaEvaluacionUI extends JFrame {
 
-    private List<JPanel> panelList = new ArrayList<>();
+    private static final long serialVersionUID = 1L;
+
+	private List<JPanel> panelList = new ArrayList<>();
 
     private List<JLabel> labels = new ArrayList<>();
 

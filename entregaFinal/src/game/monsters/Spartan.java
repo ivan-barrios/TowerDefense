@@ -15,7 +15,7 @@ public class Spartan extends Monster {
         this.activeSkill = new Slice();
         this.monsterName = name;
         this.types = Arrays.asList(Type.SWORD);
-        this.linkToImage = new ImageIcon("entregaFinal/assets/spartan.png");
+        this.linkToImage = new ImageIcon("entregaFinal/src/assets/spartan.png");
     }
 
     @Override

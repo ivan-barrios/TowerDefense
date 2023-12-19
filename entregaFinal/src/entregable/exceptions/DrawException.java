@@ -1,8 +1,6 @@
 package entregable.exceptions;
 
-import entregable.resultados.*;
-
-public class DrawException extends RuntimeException {
+public class DrawException extends Exception {
 	private static final long serialVersionUID = 1L; 
 
 	public DrawException(String message) {

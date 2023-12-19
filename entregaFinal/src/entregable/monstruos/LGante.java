@@ -21,7 +21,7 @@ public class LGante extends Monster {
 		this.life = 800;
 		this.activeSkill = skills.get(0);
 		this.types = Arrays.asList(Type.KELOKE);
-		this.linkToImage = new ImageIcon("entregaFinal/assets/lgante.jpg");
+		this.linkToImage = new ImageIcon("entregaFinal/src/assets/lgante.jpg");
 	}
 
 	@Override
